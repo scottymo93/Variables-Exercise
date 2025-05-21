@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string myName = "Scott";
+            int myAge = 32;
+            double ave = 98.6;
+            decimal bankAccount = 10000.00m;
+            char initial = 's';
+            bool isMarried = true;
+            
+            Console.WriteLine($"Name: {myName}\nAge: {myAge}\nAverage: {ave}\nMoney: {bankAccount}\nInitial: {initial}\nMarried: {isMarried}");
         }
     }
 }
